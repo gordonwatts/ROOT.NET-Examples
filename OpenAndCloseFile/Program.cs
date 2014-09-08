@@ -17,7 +17,7 @@ namespace OpenAndCloseFile
             // Create the file
             {
                 Console.WriteLine("Creating a file:");
-                var f = ROOTNET.NTFile.Open("OpenAndCloseFile.root", "RECREATE");
+                var f = ROOTNET.NTFile.Open("../../../OpenAndCloseFile.root", "RECREATE");
                 var s = new ROOTNET.NTObjString("my left foot");
                 f.Add(s);
                 f.Write();

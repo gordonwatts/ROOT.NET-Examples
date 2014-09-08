@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAndCloseFile", "OpenAndCloseFile\OpenAndCloseFile.csproj", "{F7BFEB51-89F4-46C7-8E50-C681BD8FF974}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Histograms", "Histograms", "{4F4EAA45-4C30-46AE-9791-052C79611616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillSimpleHistogram", "FillSimpleHistogram\FillSimpleHistogram.csproj", "{80C4C22F-6819-425F-B96B-591396085BD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{F7BFEB51-89F4-46C7-8E50-C681BD8FF974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7BFEB51-89F4-46C7-8E50-C681BD8FF974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7BFEB51-89F4-46C7-8E50-C681BD8FF974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C4C22F-6819-425F-B96B-591396085BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C4C22F-6819-425F-B96B-591396085BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C4C22F-6819-425F-B96B-591396085BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C4C22F-6819-425F-B96B-591396085BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F7BFEB51-89F4-46C7-8E50-C681BD8FF974} = {606418AF-359E-4EAF-A98D-2FFED9428967}
+		{80C4C22F-6819-425F-B96B-591396085BD1} = {4F4EAA45-4C30-46AE-9791-052C79611616}
 	EndGlobalSection
 EndGlobal
