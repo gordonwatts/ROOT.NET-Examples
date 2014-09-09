@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace DynamicSaveObjectToFile
 {
+    /// <summary>
+    /// Create a root object dynamically, and then write it to a file.
+    /// Wrappers for TObjString and TFile are not linked in (the core package isn't linked
+    /// for this project).
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
