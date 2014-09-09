@@ -15,6 +15,7 @@ namespace DynamicObjectCreation
     {
         static void Main(string[] args)
         {
+            // Note that we don't have the usual "N" in front of the object name below!
             var s = ((dynamic)ROOTNET.Utility.ROOTCreator.ROOT).TObjString("dude");
             s.Print();
             // Prints out "dude".

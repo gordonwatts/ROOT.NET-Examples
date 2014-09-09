@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{2759
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectCreation", "DynamicObjectCreation\DynamicObjectCreation.csproj", "{BCC15721-4DF2-4293-8C15-FF99DC67B006}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicSaveObjectToFile", "DynamicSaveObjectToFile\DynamicSaveObjectToFile.csproj", "{22E0EC10-6164-4248-83F9-19E42C2ACFC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{BCC15721-4DF2-4293-8C15-FF99DC67B006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC15721-4DF2-4293-8C15-FF99DC67B006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC15721-4DF2-4293-8C15-FF99DC67B006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E0EC10-6164-4248-83F9-19E42C2ACFC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E0EC10-6164-4248-83F9-19E42C2ACFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E0EC10-6164-4248-83F9-19E42C2ACFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E0EC10-6164-4248-83F9-19E42C2ACFC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{F7BFEB51-89F4-46C7-8E50-C681BD8FF974} = {606418AF-359E-4EAF-A98D-2FFED9428967}
 		{80C4C22F-6819-425F-B96B-591396085BD1} = {4F4EAA45-4C30-46AE-9791-052C79611616}
 		{BCC15721-4DF2-4293-8C15-FF99DC67B006} = {2759F579-E24B-44F4-8F39-326E749B1F77}
+		{22E0EC10-6164-4248-83F9-19E42C2ACFC5} = {2759F579-E24B-44F4-8F39-326E749B1F77}
 	EndGlobalSection
 EndGlobal
