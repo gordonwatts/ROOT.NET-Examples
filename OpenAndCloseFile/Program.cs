@@ -27,7 +27,7 @@ namespace OpenAndCloseFile
             // Open it and dump it out
             {
                 Console.WriteLine("\n\nOpening and dumping out the contents of the same file:");
-                var f = ROOTNET.NTFile.Open("OpenAndCloseFile.root", "READ");
+                var f = ROOTNET.NTFile.Open("../../../OpenAndCloseFile.root", "READ");
                 f.ls();
                 f.Close();
             }
